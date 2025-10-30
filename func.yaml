@@ -2,7 +2,7 @@ schema_version: 20180708
 name: to-kafka
 version: 0.0.1
 runtime: python
-build_image: fnproject/python:3.11-dev
-run_image: fnproject/python:3.11
+build_image: docker.io/library/python:3.11
+run_image: docker.io/library/python:3.11
 entrypoint: /python/bin/fdk /function/func.py handler
 memory: 356
