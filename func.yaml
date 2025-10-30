@@ -5,4 +5,4 @@ runtime: python
 build_image: fnproject/python:3.11-dev
 run_image: fnproject/python:3.11
 entrypoint: /python/bin/fdk /function/func.py handler
-memory: 256
+memory: 356
